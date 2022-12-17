@@ -1,0 +1,65 @@
+.add_btn_container {
+  width: 100%;
+  height: 100%;
+  padding: 21px !important;
+}
+
+#add_btn {
+  padding: 26px;
+  font-size: 20px;
+  float: right;
+  background: #257aff;
+    background-color: rgb(37, 122, 255);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+  color: white;
+  width: 100%;
+}
+
+#add_btn:hover {
+  cursor: pointer;
+  background: #0b61e8;
+}
+
+
+.grid__item.product__media-wrapper, 
+variant-radios,
+.product-form__input.product-form__quantity,
+.product-form__buttons,
+.product__text,
+.product__title,
+.product__description.rte,
+.product__accordion,
+.share-button
+{
+  display: none;
+}
+
+.section-template--15452495315115__main-padding {
+  position: relative;
+  left: 811px;
+  bottom: 231px;
+  padding: 0;
+  margin: 0;
+}
+
+.price-item.price-item--regular {
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgba(var(--color-foreground),.75);
+}
+
+#product_description {
+  margin: 0 9em;
+}
+
+#add_btn:disabled {
+  background: #281c1c7a;
+  cursor: auto;
+}
